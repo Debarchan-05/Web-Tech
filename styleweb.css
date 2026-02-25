@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 40px;
+    background: linear-gradient(to right, #e9f1ff, #f7faff);
+}
+
+.hero-left {
+    max-width: 50%;
+}
+
+.hero-left h1 {
+    font-size: 40px;
+}
+
+.hero-right .mock-box {
+    width: 300px;
+    height: 200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-btn {
+    background: linear-gradient(to right, #4f8cff, #6bb3ff);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.outline-btn {
+    border: 2px solid #4f8cff;
+    background: transparent;
+    padding: 8px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.upload-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.upload-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.drop-area {
+    border: 2px dashed #ccc;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.filters select {
+    padding: 8px;
+}
+
+.how {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.circle {
+    background: #4f8cff;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    background: #e9f1ff;
+}
+
+.about-right {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+}

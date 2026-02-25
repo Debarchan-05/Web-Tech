@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JobMatch API</title>
+    <link rel="stylesheet" href="styleweb.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">JobMatch API</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#how">How It Works</a>
+        <a href="#comparison">Comparison</a>
+        <a href="#about">About Project</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+    <div class="hero-left">
+        <h1>Find Your Perfect Job Match</h1>
+        <p>
+            Intelligent job recommendations by comparing LinkedIn,
+            Indeed, and our custom smart-matching algorithm.
+        </p>
+        <div class="hero-buttons">
+            <button class="primary-btn">Get Started</button>
+            <button class="outline-btn">Learn More</button>
+        </div>
+    </div>
+    <div class="hero-right">
+        <div class="mock-box">Resume Preview</div>
+    </div>
+</section>
+
+<!-- UPLOAD SECTION -->
+<section class="upload-section">
+    <h2>Upload Your Resume</h2>
+    <p>Paste or drop your resume PDF to get job matches</p>
+
+    <div class="upload-card">
+        <div class="drop-area" id="dropArea">
+            <p>Drag and drop your resume here</p>
+            <input type="file" id="fileInput">
+        </div>
+
+        <div class="filters">
+            <select>
+                <option>All Locations</option>
+            </select>
+            <select>
+                <option>Any Experience</option>
+            </select>
+            <select>
+                <option>Any Job Type</option>
+            </select>
+            <select>
+                <option>Any Tech Stack</option>
+            </select>
+        </div>
+
+        <div class="upload-buttons">
+            <button class="primary-btn" onclick="showJobs()">Get Job Suggestions</button>
+            <button class="outline-btn">Try Sample Resume</button>
+        </div>
+    </div>
+
+    <div id="jobResults"></div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+    <h2>How It Works</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="circle">1</div>
+            <h3>Upload Resume</h3>
+            <p>Upload your PDF resume for analysis.</p>
+        </div>
+        <div class="step">
+            <div class="circle">2</div>
+            <h3>Filter Results</h3>
+            <p>Customize search by location & experience.</p>
+        </div>
+        <div class="step">
+            <div class="circle">3</div>
+            <h3>Compare Sources</h3>
+            <p>Compare LinkedIn & Indeed jobs.</p>
+        </div>
+        <div class="step">
+            <div class="circle">4</div>
+            <h3>Find Best Matches</h3>
+            <p>Discover highest quality matches.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="about" id="about">
+    <div class="about-left">
+        <h2>About This Project</h2>
+        <p>
+            BTech 3rd Year project demonstrating intelligent job matching
+            using APIs and modern web technologies.
+        </p>
+    </div>
+    <div class="about-right">
+        <h3>Key Features</h3>
+        <ul>
+            <li>Resume Analysis</li>
+            <li>Multi-Source Integration</li>
+            <li>Smart Filtering</li>
+            <li>Comparison Analytics</li>
+        </ul>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 JobMatch API Project</p>
+</footer>
+
+<script src="jsweb.js"></script>
+</body>
+</html>
